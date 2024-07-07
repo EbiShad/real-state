@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding: 30px 15px;
+    border-radius: 10px;
+    box-shadow: #304ffe4a 0px 4px 15px;
+    margin-left: 40px;
+    width: 220px;
+  }
+  
+  .sidebar svg {
+    font-size: 3rem;
+    color: #304ffe;
+  }
+  
+  .sidebar p {
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  .sidebar span {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .sidebar a {
+    margin: 5px 0;
+    font-weight: 400;
+    width: 100%;
+  }
+  
+  .main {
+    width: 100%;
+  }
